@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 
 // Components Imports
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 const Header = () => {
   return (
       <header className="py-8 xl:py-12 text-white">
@@ -22,7 +23,8 @@ const Header = () => {
               </div>
 
               {/* Mobile navigation */}
-              <div className="xl:hidden">Mobile Nav</div>
+              <div className="xl:hidden"><MobileNav />
+              </div>
               </div>
       </header>
   )
